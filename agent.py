@@ -3,7 +3,6 @@ from skill_loader import load_all_skills
 from project_writer import save_project_from_response
 
 MODEL = "qwen2.5-coder:7b"
-#MODEL = "qwen3:4b"
 
 def build_system_prompt() -> str:
     skills = load_all_skills()
